@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>задание№2</title>
+</head>
+<body>
+    <fieldset>
+        <legend> Регистрационная форма пользователя
+            </legend>
+   
+<form name="user">
+    <p>Имя:<br>
+        <input type="text" name="userName" size="30">
+    </p>
+    <p>Укажите возраст:<br>
+        <input type="text" name="userAge" list="age" placeholder="Выберите возраст">
+        <datalist id="age">
+        <option value="1-10">
+        <option value="11-20">
+        <option value="21-30"> 
+        <option value="31-40"> 
+        <option value="Старше 40">
+        </datalist>
+        <p>Укажите пол:<br>
+            Ж<input type="radio" name="pol">
+            M<input type="radio" name="pol">
+        </p>
+        <p>
+            Страна проживания:
+            <seleсt name="country" size="4">
+                <option value="1"> Беларусь 
+                <option value="2"> РФ 
+                <option value="3"> Украина 
+                <option value="4"> Другое государство
+            </seleсt>
+        </p>
+    <p> Владения языками:
+        <label>Русский<input type="checkbox" name="RU" value="1"></label>
+        <label>Белорусский<input type="checkbox" name="BY" value="2"></label>
+        <label>Английский<input type="checkbox" name="EN" value="3"></label>
+      </p>
+      <p>Фото профиля
+          <input type="file" >
+          </p>
+          <p>
+              Введите логин:
+              <input type="text" name="log" size="30" placeholder="Введите логин">
+              </p>
+        <p>Введите пароль:
+            <input type="password" name="password" size="30" placeholder="Введите пароль">
+            </p>
+            <p>Повторите пароль :
+                <input type="password" name="password2" size="30" placeholder="Повторите пароль">
+                </p>
+            </fieldset>
+            <br>
+            <input type="submit" value="отправить">
+            <input type="reset" value="очистить" title="Сброс">
+            </p>
+            </form>
+           
+</body>
+</html>
