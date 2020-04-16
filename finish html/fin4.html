@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета </title>
+   
+</head>
+<body>
+    <fieldset>
+<form name="job">
+<h1>Заполните анкету</h1>
+<b>Город в котором я хочу работать</b>
+<seleсt name="/">
+            <option value="1">Минск</option>
+            <option value="2">Витебск</option>
+            <option value="3">Могилев</option>
+</select>
+<p>Меня зовут*</p>
+<input type="text" name="name" placeholder="Имя"> <input type="text" name="name2" placeholder="Фамилия">
+<p>Год,месяц,дата моего рождения*</p>
+<input type="date" name="date">
+<p>Сейчас я проживаю в городе <input type="text"> по адресу <input type="text"></p>
+<p> Мой контактный телефон</p>
+<input type="tel" name="tel" [0-9]{12}>
+<p>Образование</p>
+<label><input type="radio" name="rad" value="1">Высшее</label><br>
+<label><input type="radio" name="rad" value="2">Средне-специальное</label><br>
+<label><input type="radio" name="rad" value="3">Професионально-техническое</label><br>
+<label><input type="radio" name="rad" value="4">Среднее</label><br>
+<p>Занятость в настоящее время</p>
+<label><input type="checkbox" name="che" value="1"></label>Работаю<br>
+<label><input type="checkbox" name="che1" value="2"></label>Учусь<br>
+<label><input type="checkbox" name="che2" value="3"></label>Не занят<br>
+<br><br>
+<input type="submit" value="ОТПРАВИТЬ">
+</form>
+</fieldset>
+</body>
+</html>
