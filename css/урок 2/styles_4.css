@@ -1,0 +1,6 @@
+ul>li {
+    font-weight:bold;
+}
+ol>li {
+    font-weight: normal;
+}
