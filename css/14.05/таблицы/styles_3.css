@@ -1,0 +1,21 @@
+table {
+    height: 500px;
+    text-align: center;
+}
+td,
+td {
+    border: 1px solid rgb(24, 197, 8);
+    padding: 15px;
+    border-radius: 20px;
+    background: #98fb98;
+    empty-cells: hide;
+    width: 120px;
+}
+thead td {
+    background: linear-gradient(to top, #8af004, #6ab623);
+    color: white;
+} 
+td:first-child {
+    background: linear-gradient(45deg, #8af005, #6ab623);
+    color: white;
+}  

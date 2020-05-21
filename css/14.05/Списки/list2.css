@@ -1,0 +1,9 @@
+ol {
+    color: red;
+    list-style-type: circle;
+}
+
+ol >  ol li {
+    color: blue;
+    list-style-type: square;
+}

@@ -1,0 +1,7 @@
+ol {
+    list-style-type: disc;
+}
+
+ol >  ol li {
+    list-style-image: url(marker.png);
+}

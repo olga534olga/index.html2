@@ -1,0 +1,21 @@
+.t1 {
+    border: 1px solid black;
+    border-collapse:collapse;
+    caption-side: top;
+    width: 300px;
+
+}
+ td {
+    border: 1px solid black;
+}
+ 
+.t2 {
+    border: 1px solid black;
+    caption-side: bottom;
+    width: 300px;
+    border-spacing: 4px;
+    border-collapse: separate;
+    empty-cells: show;
+
+
+}
