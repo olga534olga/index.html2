@@ -1,0 +1,21 @@
+.div_1 {
+    width: 400px;
+    background-color: #f1f119;
+    height: 10vh;
+    border: 3px solid #ff0000;
+    border-top: 3px dotted #0000ff;
+    border-bottom: 3px dashed #0000ff;
+    border-radius: 1em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+.div_2 {
+    width: 300px;
+    background-color: #8A2BE2;
+    min-width: 400px;
+    max-width: 100px;
+    height: 100px;
+    border: 3px solid #006400;
+    outline: 4px solid #00008b;
+    outline-offset: 2px;
+}
