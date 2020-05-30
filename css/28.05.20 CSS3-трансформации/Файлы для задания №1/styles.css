@@ -1,0 +1,62 @@
+.container {
+    max-width: 980px;
+    padding: 60px;
+    margin: auto;
+
+}
+.photo-grid {
+    position: relative;
+    margin-top: 160px;
+    padding: 10px;
+    text-align: center;
+
+}
+img {
+    transition: all 0.4s ease-in 0s;
+    position: relative;
+    height: 172px;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    float: left;
+    margin-top: -100px;
+    padding: 10px;
+    z-index: 2;
+}
+
+img:nth-of-type(even) {
+    transform: rotate(8deg) translateX(10px);
+}
+
+img:nth-child(odd) {
+    transform: rotate(-5deg) translate(40px, 30px);
+}
+
+img:nth-child(3n) {
+    transform: rotate(-15deg) translate(7px, -40px);
+}
+
+img:nth-of-type(5n) {
+    left: 5px;
+    top: 20px;
+}
+
+img:nth-child(6n) {
+    transform: rotate(15deg) translate(-10px, -30px);
+}
+
+img:nth-child(9n) {
+    transform: rotate(22deg) translate(-10px, -30px);
+}
+
+img:hover {
+    box-shadow: 15px 15px 20px rgba(0, 0 0, 0.6);
+    z-index: 10;
+    transform: scale(1.5) rotate(360deg);
+}
+
+.clear {
+    clear: both;
+}
+
+
+
