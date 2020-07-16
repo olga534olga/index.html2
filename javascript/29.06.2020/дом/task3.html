@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание1</title>
+    <script>
+    'use strict'
+       function calcMin (a,b,c) {
+           let calc= a;
+           if (a>b) {
+            calc=b;
+           }
+           if (a>c) {
+            calc=c;
+           }
+            return(calc);
+       }
+       let num_1=+prompt('Введите  1-ечисло');
+       let num_2=+prompt('Введите  2-ечисло');
+       let num_3=+prompt('Введите  3-ечисло');
+       alert('минимльным числом является ' + calcMin(num_1,num_2,num_3));
+    </script>
+</head>
+<body>
+</body>
+</html>
