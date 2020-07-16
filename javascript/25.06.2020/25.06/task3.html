@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание3</title>
+    <script>
+    'use strict'
+        let date=new Date();
+        let h=date.getHours();
+        let name=prompt ('Привет!как вас зовут?');
+        switch(h) {
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+            case 12:alert( 'Доброе утро, ' + name );
+            break;
+            case 13:
+            case 14:
+            case 15:
+            case 16:
+            case 17:
+            case 18:alert('Добрый день, ' + name );
+            break;
+            case 19:
+            case 20:
+            case 21:
+            case 22:
+            case 23:
+            case 24:alert('Добрый вечер, ' + name );
+            break;
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:alert('доброй ночи, '+ name );
+            break;
+            default:alert('еще раз') ;
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
