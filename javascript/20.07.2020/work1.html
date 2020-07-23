@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание2</title>
+    <script>
+        'use strict'
+        let fruits = ['Яблоко','Апельсин','Слива'];
+        //добавление в конец
+        fruits.push('Абрикос');
+
+        //добавление в начало
+        fruits.unshift('Нектарин', 'Персик');
+
+         /*способ удаления с помощью delete
+       delete arr[2];
+        delete arr[3];*/
+
+        //2-й способ
+        fruits.splice(2,2);
+        alert(fruits);
+
+        //копирование в новый массив
+        let favoriteFruits = [fruits.slice(0,3)];
+        alert(favoriteFruits);
+
+        //создание нового массива и копирование его в fruits
+        let berries = ['Барбарис','Виноград','Годжи'];
+        alert(fruits.concat(berries));
+        alert(fruits.length);
+
+        //метод forEach
+        favoriteFruits.forEach((item,index,array) => {
+            alert(`${item} индекс равен ${index}`)
+        });
+        alert ("Индекс сливы =" + favoriteFruits.indexOf("Слива"));
+
+        alert(favoriteFruits.incLudes('Яблоко'));
+       
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание2</title>
+    <script>
+       'use strict'
+    let Arr = [2,-15,12,83,-29,111,-6,22];
+    let result = Arr.find(index => index > 99);
+    alert(result);
+    let result2 = Arr.filter(item => item % 5 == 0 );
+    alert(result2);
+    let arr = [Arr.filter(item => item >=0)];
+    alert(arr);
+    let result3 = Arr.sort((a,b) => a-b);
+    alert(result3);
+    Arr = Arr.map(function(index) {
+        if(index < 0) {
+            index = Math.abc(index);
+        } else {
+            index *=2;
+        }
+    return index;
+    });
+    Arr.sort((a,b) =>b-a);
+    Arr.reverse();
+    
+
+    </script>
+</head>
+<body>
+</body>
+</html>
